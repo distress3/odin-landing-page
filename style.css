@@ -1,17 +1,44 @@
-.body {
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
     display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 
 .header {
     background-color: #1F2937;
+    height: 72px;
+    flex: 0 0 auto;
+    display: flex;
+}
+
+.header .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+    color: #F9FAF8;
 }
 
 .hero {
     background-color: #1F2937;
+    flex: 1;
 }
 
-.quoute {
+.quote {
     background-color: #E5E7EB;
+    flex: 1;
+}
+
+.call-to-action {
+    flex: 1;
 }
 
 .call-to-action button {
@@ -21,4 +48,6 @@
 
 .footer {
     background-color: #1F2937;
+    height: 72px;
+    flex: 0 0 auto;
 }
