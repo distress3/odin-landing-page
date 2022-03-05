@@ -136,15 +136,31 @@ body {
 .quote {
     background-color: #E5E7EB;
     flex: 1 0 10em;
+    padding: 72px 144px;
 }
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote .quote-author {
+    text-align: end;
+} 
 
 .call-to-action {
     flex: 1 0 10em;
 }
 
-.call-to-action button {
+.cta-btn {
     background-color: #3882F6;
     color: #FFFFFF;
+    border: #E5E7EB;
+    border-width: 4px;
+    border-radius: 8px;
 }
 
 .footer {
