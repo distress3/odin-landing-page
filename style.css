@@ -36,18 +36,22 @@ body {
 
 .hero {
     background-color: #1F2937;
-    flex: 1 0 10em;
+    height: 400px;
+    box-sizing: border-box;
+    flex: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     padding: 48px;
 }
 
 .hero .hero-left {
     display: flex;
     flex-direction: column;
-    flex: auto;
+    box-sizing: border-box;
+    flex: 1 1 200px;
+    height: 320px;
     margin: 32px;
-    height: 5em;
 }
 
 .hero .hero-left .main-text {
@@ -62,12 +66,19 @@ body {
 }
 
 .hero .hero-right {
-    flex: auto;
+    flex: 1 1 200px;
+    box-sizing: border-box;
     margin: 32px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    height: 320px;
 }
 
 .hero .hero-right img {
-    width: 300px;
+    flex: 1 0 auto;
+    width: 240px;
+    height: auto;
 }
 
 .info {
