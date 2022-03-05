@@ -45,8 +45,9 @@ body {
 .hero .hero-left {
     display: flex;
     flex-direction: column;
-    flex: 1 0 5em;
+    flex: auto;
     margin: 32px;
+    height: 5em;
 }
 
 .hero .hero-left .main-text {
@@ -61,7 +62,7 @@ body {
 }
 
 .hero .hero-right {
-    flex: 1 0 5em;
+    flex: auto;
     margin: 32px;
 }
 
