@@ -38,13 +38,15 @@ body {
     background-color: #1F2937;
     flex: 1 0 10em;
     display: flex;
-    justify-content: center;
-    padding: 72px;
+    justify-content: flex-end;
+    padding: 48px;
 }
 
 .hero .hero-left {
     display: flex;
     flex-direction: column;
+    flex: 1 0 5em;
+    margin: 32px;
 }
 
 .hero .hero-left .main-text {
@@ -56,6 +58,11 @@ body {
 .hero .hero-left .secondary-text {
     font-size: 18px;
     color: #efe7eb;
+}
+
+.hero .hero-right {
+    flex: 1 0 5em;
+    margin: 32px;
 }
 
 .hero .hero-right img {
