@@ -151,20 +151,45 @@ body {
     text-align: end;
 } 
 
-.call-to-action {
+.cta-body {
     flex: 1 0 10em;
+    height: 300px;
+}
+
+.cta-sq {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    margin: 72px;
+    display: flex;
+    padding: 36px 72px;
+}
+
+.cta-sq-tx-hd {
+    font-weight: bold;
+}
+
+.cta-sq-tx-sub {
+    font-weight: 200;
 }
 
 .cta-btn {
     background-color: #3882F6;
     color: #FFFFFF;
-    border: #E5E7EB;
-    border-width: 4px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 8px;
+    padding: 4px 16px;
+    margin-left: auto;
 }
 
 .footer {
     background-color: #1F2937;
     height: 72px;
     flex: 0 0 auto;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
