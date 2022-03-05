@@ -13,11 +13,14 @@ body {
     height: 72px;
     flex: 0 0 auto;
     display: flex;
+    align-items: center;
+
 }
 
 .header .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 16px;
 }
 
 .header ul {
@@ -27,18 +30,27 @@ body {
     color: #F9FAF8;
 }
 
+.header ul li {
+    padding: 16px;
+}
+
 .hero {
     background-color: #1F2937;
-    flex: 1;
+    flex: 1 0 10em;
+    
+}
+
+.info {
+    flex: 1 0 10em;
 }
 
 .quote {
     background-color: #E5E7EB;
-    flex: 1;
+    flex: 1 0 10em;
 }
 
 .call-to-action {
-    flex: 1;
+    flex: 1 0 10em;
 }
 
 .call-to-action button {
